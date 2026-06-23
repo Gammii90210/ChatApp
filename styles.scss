@@ -1,0 +1,59 @@
+/* ── Design tokens ─────────────────────────────────────── */
+:root {
+  --accent:        #5b50d6;
+  --accent-dark:   #4640b8;
+  --accent-subtle: #eeedfe;
+  --online:        #1d9e75;
+  --surface-primary:   #ffffff;
+  --surface-secondary: #f6f5f3;
+  --surface-input:     #f6f5f3;
+  --surface-hover:     #f0eeeb;
+  --surface-active:    #ebe9e4;
+
+  --text-primary:   #1a1a1a;
+  --text-secondary: #4a4a4a;
+  --text-muted:     #9a9898;
+
+  --border: rgba(0, 0, 0, 0.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent:        #7b72e8;
+    --accent-dark:   #9d96f0;
+    --accent-subtle: #26215c;
+    --online:        #3bc897;
+
+    --surface-primary:   #1c1c1e;
+    --surface-secondary: #242426;
+    --surface-input:     #2c2c2e;
+    --surface-hover:     #2c2c2e;
+    --surface-active:    #36363a;
+
+    --text-primary:   #f2f2f7;
+    --text-secondary: #c7c7cc;
+    --text-muted:     #636366;
+
+    --border: rgba(255, 255, 255, 0.08);
+  }
+}
+
+/* ── Reset ─────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Geist', system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  color: var(--text-primary);
+  background: var(--surface-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button { font-family: inherit; }
+input  { font-family: inherit; }
