@@ -59,7 +59,7 @@ The sidebar organises all conversations into two clearly labelled sections: **PI
 
 ### Add Contact Modal
 
-![Add Contact Modal](screenshots/add-contact.png)
+![Add Contact](ChatApp-AddContacts.png)
 
 The **Add contact** modal offers two distinct flows via a segmented tab toggle:
 
@@ -72,7 +72,7 @@ The backdrop is clickable to dismiss, and the name field auto-focuses on open.
 
 ### Contact Info Panel
 
-![Contact Info Panel](screenshots/contact-info.png)
+![Contact Info Panel](ChatApp-ContactInfo.png)
 
 Clicking a contact's name in the chat header slides open a **Contact Info** right panel — without navigating away from the conversation. The panel displays:
 
@@ -89,7 +89,7 @@ Available for every contact, including those just created via the New contact fo
 
 ### Contacts List & User Profile
 
-![Contacts List and User Profile](screenshots/contact-list-profile.png)
+![Contacts List and User Profile](ChatApp-Contactlist&UserInfo.png)
 
 The **Contacts tab** lists all saved contacts with their avatar, name, email, and a coloured status pill (Online / Away / Offline). A **New contact** button in the header opens the add contact modal directly. Each row has a hover-revealed info (ⓘ) button to open that contact's info panel.
 
@@ -101,9 +101,9 @@ Clicking the **"You"** avatar in the sidebar footer opens the **My Profile** rig
 
 ---
 
-### Contextual Dropdown Menu
+### Contact Dropdown Menu
 
-![Dropdown Menu](screenshots/dropdown-menu.png)
+![Dropdown Menu](ChatApp-ContctDropdownMenu.png)
 
 Clicking the **⋮** (three-dot) icon in the chat header reveals a polished dropdown menu with six contextual actions. Labels update dynamically based on current state (e.g. "Pin chat" becomes "Unpin chat" once pinned). Destructive actions are visually separated by a divider and styled in red.
 
@@ -122,7 +122,7 @@ The menu closes automatically on any outside click.
 
 ### Status Tab
 
-![Status Tab](screenshots/status.png)
+![Status Tab](ChatApp-Status.png)
 
 The **Status** tab provides a WhatsApp-style status experience:
 
@@ -288,6 +288,6 @@ Key signals:
 
 <div align="center">
 
-Built with Angular 19 · Inspired by WhatsApp · Made by [Gamaliel (Gammii90210)](https://github.com/Gammii90210)
+Built with Angular 19 · Inspired by WhatsApp · Made by [Gamaliel Egbuchiri (Gammii90210)](https://github.com/Gammii90210)
 
 </div>
